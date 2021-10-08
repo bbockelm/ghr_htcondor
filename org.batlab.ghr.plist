@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer/DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>Label</key>
+        <string>org.batlab.ghrunner.plist</string>
+        <key>Program</key>
+        <string>/Users/bbockelm/projects/ghr_htcondor/oneshot_runner.sh</string>
+        <key>ProgramArguments</key>
+        <array>
+                <string>/Users/bbockelm/projects/ghr_htcondor/oneshot_runner.sh</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true/>
+	<key>KeepAlive</key>
+	<true/>
+        <key>ServiceDescription</key>
+        <string>CHTC custom GitHub Runner</string>
+        <key>StandardErrorPath</key>
+	<string>/Users/bbockelm/ghrunner.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/bbockelm/ghrunner.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/bbockelm/projects/ghr_htcondor</string>
+</dict>
+</plist>
