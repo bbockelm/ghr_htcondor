@@ -90,6 +90,7 @@ Configure and Install Dependencies
    ```
 6. Install `scitokens-cpp` from <https://github.com/scitokens/scitokens-cpp>
 7. Install a GitHub runner following the instructions at <https://github.com/organizations/htcondor/settings/actions/runners/new>
+8. Enable passwordless `sudo` for the condor account.
 
 You may need to adjust the image a few times to get things right.  To do this, startup the image,
 tinker with it, shut it down, and then make sure you delete any prior snapshots (the CI startup

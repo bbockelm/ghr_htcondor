@@ -1,5 +1,7 @@
 #!/bin/sh -x
 
+export PATH=/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin
+
 VMName=BigSurCI
 
 VBoxManage snapshot $VMName list > /dev/null
