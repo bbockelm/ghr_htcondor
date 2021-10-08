@@ -10,6 +10,8 @@
         <array>
                 <string>/Users/bbockelm/projects/ghr_htcondor/oneshot_runner.sh</string>
         </array>
+	<key>UserName</key>
+	<string>bbockelm</string>
         <key>RunAtLoad</key>
         <true/>
 	<key>KeepAlive</key>
